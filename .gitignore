@@ -17,7 +17,8 @@
 *.bak
 
 # Ignored Terraform files
-*gitignore*.tf
+*gitignore
+*.tf
 
 # Ignore Mac .DS_Store files
 .DS_Store
@@ -41,3 +42,4 @@ operations/variable-scripts/variable.json
 
 # Sentinel runtime directory
 .sentinel
+.terraform.lock.hcl
