@@ -7,7 +7,7 @@ resource "google_compute_subnetwork" "subnet1" {
     range_name    = "tf-test-secondary-range-update1"
     ip_cidr_range = "192.168.10.0/24"
   }
-  private_ip_google_access = true
+  private_ip_google_access = false
   log_config {
     aggregation_interval = "INTERVAL_5_SEC"
     metadata             = "EXCLUDE_ALL_METADATA"
