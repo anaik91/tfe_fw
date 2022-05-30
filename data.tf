@@ -5,7 +5,7 @@ resource "google_service_account" "service_account" {
 
 resource "google_notebooks_instance" "instance" {
   project      = var.project_id
-  name         = "test_notebook"
+  name         = "test-notebook"
   location     = "us-central1-a"
   machine_type = "n1-standard-1"
   labels       = {}
