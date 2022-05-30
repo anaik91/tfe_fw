@@ -17,8 +17,8 @@ resource "google_notebooks_instance" "instance" {
 
 
   vm_image {
-    project      = var.project_id
-    image_family = "common-cpu-notebooks-debian-10"
+    project      = "deeplearning-platform-release"
+    image_family = "tf-latest-cpu"
   }
 
   instance_owners = ["ashwinknaik@google.com"]
